@@ -1,6 +1,6 @@
 {
-  "name": "fmaps-new",
-  "version": "3.4.0",
+  "name": "fmaps",
+  "version": "3.5.0",
   "description": "Test repository to learn transfer of already published npm package ",
   "main": "index.js",
   "scripts": {

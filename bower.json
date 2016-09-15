@@ -1,0 +1,17 @@
+{
+  "name": "fmaps",
+  "description": "Test repository to learn transfer of already published npm package",
+  "main": "index.js",
+  "authors": [
+    "Prithwiraj Saha"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/rohitkr/fmaps-new",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

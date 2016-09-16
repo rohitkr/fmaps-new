@@ -15,13 +15,13 @@ It is recommended that you download the **fusioncharts** package if you will be 
 ## Table of Contents
 
 - [Quick Start](#quick-start)
-	- [Installing fusionmaps from npm](#installing-fusionmaps-from-npm)
-		- [Chart-specific dependencies for npm](#chart-specific-dependencies-for-npm)
-	- [Installing fusionmaps from Bower](#installing-fusionmaps-from-bower)
-		- [Chart-specific dependencies for Bower](#chart-specific-dependencies-for-bower)
+  - [Installing fusionmaps from npm](#installing-fusionmaps-from-npm)
+    - [Chart-specific dependencies for npm](#chart-specific-dependencies-for-npm)
+  - [Installing fusionmaps from Bower](#installing-fusionmaps-from-bower)
+    - [Chart-specific dependencies for Bower](#chart-specific-dependencies-for-bower)
 - [What's Included](#whats-included)
-	- [Directory structure for fusionmaps installed via npm](#directory-structure-for-fusionmaps-installed-via-npm)
-	- [Directory structure for fusionmaps installed via Bower](#directory-structure-for-fusionmaps-installed-via-bower)
+  - [Directory structure for fusionmaps installed via npm](#directory-structure-for-fusionmaps-installed-via-npm)
+  - [Directory structure for fusionmaps installed via Bower](#directory-structure-for-fusionmaps-installed-via-bower)
 
 
 ## Quick Start
@@ -57,7 +57,7 @@ var chart = new FusionCharts ({
     "height": "300",
     "dataFormat": "json",
     "dataSource": {
-    	chart:{}
+      chart:{}
     }
 }).render("chartContainer");
 ```
@@ -111,7 +111,7 @@ require("fusioncharts/fusioncharts.gantt")(FusionCharts);
    
 4. Load the map definition file(s) for the map(s) to be rendered using the format: **fusioncharts.&lt;MAP_ALIAS&gt;.js**, where **MAP_ALIAS** gets replaced by the map’s JavaScript alias. Click [here](http://www.fusioncharts.com/dev/getting-started/list-of-maps.html) to get the alias names for all map definition files. Map definition files for all maps to be rendered in the application have to be included.
 
-	Therefore, assuming that you need to render the world map, the alias name __world__ replaces the __MAP_ALIAS__ in the format.
+  Therefore, assuming that you need to render the world map, the alias name __world__ replaces the __MAP_ALIAS__ in the format.
 
   `<script src="bower_components/fusionmaps/maps/fusioncharts.world.js"></script>`
 
@@ -122,13 +122,13 @@ require("fusioncharts/fusioncharts.gantt")(FusionCharts);
 ```
 <script>
 new FusionCharts({
-	"type": "world",
-	"width": "500",
-	"height": "300",
-	"dataFormat": "json",
-	"dataSource": {
-		chart:{}
-	}
+  "type": "world",
+  "width": "500",
+  "height": "300",
+  "dataFormat": "json",
+  "dataSource": {
+    chart:{}
+  }
 }).render("chartContainer");
 </script>
 ```
@@ -176,29 +176,29 @@ When fusionmaps is installed via npm, the package contains the following directo
 ```
 node_modules/
 └── fusionmaps/
-	│
-	├── package.json
-	│
-	├── maps/
-	│   ├── fusioncharts.world.js
-	│   ├── fusioncharts.usa.js
-	│   └── fusioncharts.<MAP_ALIAS>.js
-	│
-	├── themes/
-	│   ├── fusioncharts.theme.carbon.js
-	│   ├── fusioncharts.theme.fint.js
-	│   ├── fusioncharts.theme.ocean.js
-	│   └── fusioncharts.theme.zune.js
-	│
-	├── fusioncharts.js
-	├── fusioncharts.charts.js
-	├── fusioncharts.zoomscatter.js
-	├── fusioncharts.ssgrid.js
-	├── fusioncharts.powercharts.js
-	├── fusioncharts.gantt.js
-	├── fusioncharts.treemap.js
-	├── fusioncharts.widgets.js
-	└── fusioncharts.maps.js	
+  │
+  ├── package.json
+  │
+  ├── maps/
+  │   ├── fusioncharts.world.js
+  │   ├── fusioncharts.usa.js
+  │   └── fusioncharts.<MAP_ALIAS>.js
+  │
+  ├── themes/
+  │   ├── fusioncharts.theme.carbon.js
+  │   ├── fusioncharts.theme.fint.js
+  │   ├── fusioncharts.theme.ocean.js
+  │   └── fusioncharts.theme.zune.js
+  │
+  ├── fusioncharts.js
+  ├── fusioncharts.charts.js
+  ├── fusioncharts.zoomscatter.js
+  ├── fusioncharts.ssgrid.js
+  ├── fusioncharts.powercharts.js
+  ├── fusioncharts.gantt.js
+  ├── fusioncharts.treemap.js
+  ├── fusioncharts.widgets.js
+  └── fusioncharts.maps.js  
 ```
 
 ### Directory structure for fusionmaps installed via Bower
@@ -208,27 +208,27 @@ When fusionmaps is installed via Bower, the package contains the following direc
 ```
 bower_components/
 └── fusionmaps/
-	│
-	├── package.json
-	│
-	├── maps/
-	│   ├── fusioncharts.world.js
-	│   ├── fusioncharts.usa.js
-	│   └── fusioncharts.<MAP_ALIAS>.js
-	│
-	├── themes/
-	│   ├── fusioncharts.theme.carbon.js
-	│   ├── fusioncharts.theme.fint.js
-	│   ├── fusioncharts.theme.ocean.js
-	│   └── fusioncharts.theme.zune.js
-	│
-	├── fusioncharts.js
-	├── fusioncharts.charts.js
-	├── fusioncharts.zoomscatter.js
-	├── fusioncharts.ssgrid.js
-	├── fusioncharts.powercharts.js
-	├── fusioncharts.gantt.js
-	├── fusioncharts.treemap.js
-	├── fusioncharts.widgets.js
-	└── fusioncharts.maps.js
+  │
+  ├── package.json
+  │
+  ├── maps/
+  │   ├── fusioncharts.world.js
+  │   ├── fusioncharts.usa.js
+  │   └── fusioncharts.<MAP_ALIAS>.js
+  │
+  ├── themes/
+  │   ├── fusioncharts.theme.carbon.js
+  │   ├── fusioncharts.theme.fint.js
+  │   ├── fusioncharts.theme.ocean.js
+  │   └── fusioncharts.theme.zune.js
+  │
+  ├── fusioncharts.js
+  ├── fusioncharts.charts.js
+  ├── fusioncharts.zoomscatter.js
+  ├── fusioncharts.ssgrid.js
+  ├── fusioncharts.powercharts.js
+  ├── fusioncharts.gantt.js
+  ├── fusioncharts.treemap.js
+  ├── fusioncharts.widgets.js
+  └── fusioncharts.maps.js
 ```
